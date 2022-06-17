@@ -84,3 +84,11 @@ b{
     font-size:10px;
     color: hsl(246, 25%, 77%);
 }
+
+@media screen and (max-width:375px) {
+    main{
+    flex-direction: column;
+    width: 100%;
+        
+    }
+}
