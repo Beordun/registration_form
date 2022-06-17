@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: "poppins", sans-serif;
+    
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+}
+
+.box1{
+    display: flex;
+    float: left;
+    margin-top: 20px;
+    align-items:left;
+    margin-left: 100px;
+}
+
+h1{
+    padding: 100px;
+    font-size:50px;
+    color: #fff;
+
+}
+
+.box2{
+    background-color: #fff;
+    display: flex;
+    float: right;
+    width: 40%;
+    box-shadow:0 5px 0 hsl(246, 25%, 77%);
+    margin-top: 20px;
+    translate: (-50%, -50%);
+    align-items:left;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.wrap{
+    
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height:50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: .9px solid hsl(246, 25%, 77%);
+    border-radius:10px;
+    outline: none;
+
+}
+
+
+.btn1{
+    border-radius:10px;
+    color:#fff;
+    width: 400px;
+    height:50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+   
+    cursor: pointer;
+}
+
+b{
+    color: red;
+    font-size: 10px;
+}
+
+.lower{
+    font-size:10px;
+    color: hsl(246, 25%, 77%);
+}
